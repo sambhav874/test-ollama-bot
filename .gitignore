@@ -1,0 +1,31 @@
+# Ignore the entire ollama folder
+ollama/
+
+# Ignore Python virtual environment directories
+venv/
+.env/
+env/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore temporary and log files
+*.log
+*.tmp
+tempCodeRunnerFile.py
+
+
+
+# Ignore vectorstore-related directories (assuming they contain temporary data or caches)
+vectorstore/
+vectorstores/
+
+
+
+# Ignore system files and editor configurations
+.DS_Store
+.vscode/
+.idea/
