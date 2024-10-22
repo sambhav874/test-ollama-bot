@@ -1,13 +1,7 @@
-import os
-import csv
-import ollama
-import chainlit as cl
-from PyPDF2 import PdfReader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.vectorstores import FAISS
-from langchain.chains import RetrievalQA
-from langchain_core.prompts import PromptTemplate
-from langchain.document_loaders import PyPDFLoader, DirectoryLoader
-import requests
-from langchain.schema import Document
+ollama
+chainlit
+PyPDF2
+langchain
+langchain-community
+faiss-cpu
+requests

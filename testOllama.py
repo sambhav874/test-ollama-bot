@@ -55,8 +55,17 @@ def fetch_api_data():
 
 
 def create_vector_db():
-    
-    documents = {}
+    if not os.path.exists(DATA_PATH):
+        os.makedirs(DATA_PATH)
+        print(f"Created {DATA_PATH} directory. Please add your PDF files to this directory and run the script again.")
+        return None
+
+    if not os.listdir(DATA_PATH):
+        print(f"No PDF files found in {DATA_PATH}. Please add your PDF files and run the script again.")
+        return None
+
+    loader = DirectoryLoader(DATA_PATH, glob="*.pdf", loader_cls=PyPDFLoader)
+    documents = loader.load()
     
     # Fetch API data
     api_data = fetch_api_data()
@@ -224,7 +233,7 @@ async def main(message: cl.Message):
         await cl.Message(content=f"\nQuestion tokens: {ques_tok}\nAnswer tokens: {ans_tok}").send()
         await cl.Message(content=answer).send()
 
-        
+        # Log conversation data
         data = [
             [message.content, ques_tok, answer, ans_tok],
         ]
@@ -243,4 +252,4 @@ if __name__ == "__main__":
         if db is None:
             print("Failed to create vector store. Exiting.")
             exit(1)
-    cl.run()
+    app = cl.arun()

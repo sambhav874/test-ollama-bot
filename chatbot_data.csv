@@ -188,3 +188,55 @@ which insurances do you offer,5,"Hello! I'm glad you asked. We offer a wide rang
 Would you like to book an appointment to discuss your insurance needs?
 
 Would you like to book an appointment? Please respond with 'Yes' or 'No'.",65
+can you book an appointment,5,"Hello! I'm happy to assist you.
+
+I am an insurance agent and I can only provide insurance solutions offered by our company. Would you like to book an appointment to discuss your insurance needs?
+
+Would you like to book an appointment? Please respond with 'Yes' or 'No'.",47
+hello,1,Hello! How can I assist you today?,7
+do you know how to book an appointment,8,"Hello! I'd be happy to help with that!
+
+Yes, we can definitely book an appointment to discuss your insurance needs. Would you like to proceed? 
+
+(If yes, I'll ask for your details one by one)
+
+Would you like to book an appointment? Please respond with 'Yes' or 'No'.",48
+Yes,1,Great! Let's book an appointment. Please provide your Name:,9
+Sambhav Jain,2,"Thank you. Now, please provide your Contact Number:",8
+9873291449,1,"Thank you. Now, please provide your Email:",7
+sambhavjain874@gmail.com,1,"Thank you. Now, please provide your Appointment Date:",8
+24/07/2024,1,"Thank you. Now, please provide your Insurance Type:",8
+Life Insurance,2,"Thank you for providing all the details. Here's a summary of your appointment:
+
+Appointment Details:
+Name: Sambhav Jain
+Contact Number: 9873291449
+Email: sambhavjain874@gmail.com
+Appointment Date: 24/07/2024
+Insurance Type: Life Insurance
+
+We look forward to assisting you!",36
+What are types of leverages in financial management ,8,"I am an insurance agent and I can only provide insurance solutions offered by our company. Would you like to book an appointment to discuss your insurance needs?
+
+Would you like to book an appointment? Please respond with 'Yes' or 'No'.",41
+do you know who needs a life insurance,8,"Based on the context, I'd say that anyone with a family to support and earns income can benefit from having a life insurance policy. They include:
+
+* Primarily, anyone who has a family to support and is an income earner
+* Housewives too need risk cover in view of their economic value to the family
+* Even children can be considered for life insurance in view of their future income potential
+
+Would you like to book an appointment to discuss your insurance needs?
+
+Would you like to book an appointment? Please respond with 'Yes' or 'No'.",96
+Hello ,1,Hello! How can I assist you today?,7
+How can you help me?,5,"Hello! I'm glad you're here. As an insurance agent of Wing Heights Ghana, I'd be happy to provide insurance solutions for you. We offer a range of policies to protect your assets and mitigate potential losses. Would you like to book an appointment to discuss your insurance needs?
+
+Would you like to book an appointment? Please respond with 'Yes' or 'No'.",61
+who needs a life insurance,5,"You need life insurance! As I mentioned earlier, anyone who has a family to support and is an income earner, housewives too, or even children with future income potential can benefit from life insurance. Would you like to book an appointment to discuss your life insurance needs?
+
+Would you like to book an appointment? Please respond with 'Yes' or 'No'.",60
+who needs a life insurance,5,"Based on the information provided, anyone who has a family to support and is an income earner needs life insurance.
+
+In addition to that, housewives too need risk cover in view of the economic value of their contribution to the family. Even children can be considered for life insurance in view of their future income potential that is at risk.
+
+So, it's not just limited to individuals with a stable income, but also those who contribute economically to their families, and even children with future earning potential!",87
