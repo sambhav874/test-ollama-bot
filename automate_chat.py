@@ -1,16 +1,23 @@
 # main.py
-
+import random
+import time
 from datetime import datetime
 from config import MAX_SESSION_TOKENS
 from utils import *
+from questions import questions_list
 
 # Main chatbot function to interact with user
 def qa_bot():
     prompt_template = set_custom_prompt()
     tokens_count = 0
+    non_sense_count=0
+    duration=60*time_minutes
+    start_time = time.time()
 
-    while tokens_count <= MAX_SESSION_TOKENS:
-        query = input("YOU: ")
+    while (tokens_count <= MAX_SESSION_TOKENS) and (non_sense_count<100) and (time.time() - start_time < duration)  :
+
+        query=random.choice(questions_list)
+        print(f"YOU: {query}")
         ques_tok = count_tokens(query)
         tokens_count += ques_tok
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -19,17 +26,22 @@ def qa_bot():
         if is_greeting(query):
             greet_response = "ADA: Hello! How can I assist you with insurance-related questions today?"
             print(f"{greet_response} [Timestamp: {timestamp}]")
+            print("-------------------------------------------------------")
             tokens_count += count_tokens(greet_response)
             continue
 
         # Handle appointment booking
         if is_booking_intent(query):
             appointment_booking()
+            print("-------------------------------------------------------")
             continue
 
         # Check if query is insurance-related
         if not is_insurance_related(query):
             print("ADA: I'm here to help with insurance-related questions only.")
+            print("-------------------------------------------------------")
+
+            non_sense_count+=1
             continue
 
         # Generate and validate response
@@ -40,6 +52,7 @@ def qa_bot():
         tokens_count += ans_tok
         print(f"ADA: {validated_answer} [Timestamp: {timestamp}]")
         print(f"Tokens used: Question - {ques_tok}, Answer - {ans_tok}, Total - {tokens_count}")
+        print("-------------------------------------------------------")
 
         # Define an expected response for scoring purposes
         context = get_relevant_context(query, db)

@@ -1,0 +1,128 @@
+timestamp,query,response,question_tokens,answer_tokens,total_tokens,bleu_score,rouge_score,cosine_similarity,meteor_score,f1_score
+06-11-2024 20:03,tell me what is an insurance,"Good day! According to the provided context, insurance is a mechanism of risk transfer and sharing by pooling of risks and funds among a group of individuals who are exposed to similar kinds of risks for the benefit of those who suffer loss on account of the risk.",6,48,54,0.012725045,0.268456376,0.80314255,0.114040603,0.320855615
+06-11-2024 20:04,do you think i should use my money in travelling or i should buy an insurance with it,"Hello!
+
+Since you're considering using your money for traveling or buying travel insurance, I'd recommend exploring the option of travel insurance. As mentioned earlier, travel insurance protects against accidents, unexpected medical expenditure during travel, baggage loss, and other travel-related perils and losses.
+
+It's always a good idea to consider the potential risks and uncertainties involved in traveling, and having travel insurance can provide you with financial protection in case something unexpected happens.
+
+What do you think? Would you like me to help you understand more about travel insurance or explore other options for your money?",18,95,167,1.82E-79,0.13202934,0.6332953,0.096739786,0.190839695
+06-11-2024 20:20,tell me any three principles on which the insurance policies stand on,"Hello! 
+
+According to the context, three principles of insurance are:
+
+i. Law of large numbers
+ii. Insurable interest
+iii. Utmost good faith
+
+These are the fundamental principles that form the basis of how insurance works.",12,35,47,0.000416209,0.152380952,0.6548648,0.072502942,0.171171171
+13-11-2024 20:34,What is the maximum coverage amount for this policy?,Hello! I don't know the answer. The provided context does not mention a specific maximum coverage amount for this policy.,9,20,29,0.000154856,0.089552239,0.5424557,0.048216008,0.14953271
+13-11-2024 20:34,What is the refund policy if I cancel my insurance?,"Hello!
+
+I don't know the answer. The context does not mention anything about the refund policy when cancelling an insurance policy.",10,21,68,1.23E-07,0.047138047,0.48038322,0.022605836,0.093023256
+13-11-2024 20:34,Can you explain the difference between term and whole life insurance?,I don't know the answer.,11,5,106,1.27E-25,0.006993007,0.046329357,0.002001601,0.011976048
+13-11-2024 20:34,How can I calculate the premium for my health insurance?,I don't know the answer.,10,5,121,1.06E-33,0.016304348,-0.014845301,0.002998501,0.008264463
+13-11-2024 20:34,Are pre-existing conditions covered under this health insurance plan?,I don't know the answer.,9,5,135,4.49E-20,0.018099548,0.012212877,0.007767996,0.028985507
+13-11-2024 20:50,How does travel insurance protect policyholders?,"Hello! 
+
+Travel insurance protects policyholders from domestic and international travel-related perils and losses, such as accidents, unexpected medical expenditure during travel, baggage loss, interruption or delays in flights, etc.",6,29,42,1.00E-05,0.116666667,0.74171907,0.048347907,0.142259414
+13-11-2024 20:51,What is the role of IRDAI in the Indian insurance sector?,"Good morning! According to the context, IRDAI's main role is to ""regulate, promote and ensure orderly growth of the insurance business and re-insurance business"". Additionally, it also aims to protect the interests of policyholders.",11,34,94,0.000743463,0.160278746,0.7885688,0.06461009,0.174863388
+13-11-2024 20:51,What is a unit-linked insurance plan?,Hello! I don't know the answer.,6,6,113,2.96E-07,0.023255814,0.09550605,0.007153076,0.033333333
+13-11-2024 20:51,What is subrogation in insurance terms?,"Hello! According to the context, subrogation in insurance parlance refers to the taking-over of the insured’s right by the insurer who paid for the loss and compensated the insured. In other words, on payment of the claim, the insured’s right to claim from anywhere else gets ‘subrogated’ to the insurer.",6,50,182,0.020621361,0.266666667,0.7073776,0.143786515,0.348837209
+13-11-2024 20:51,Can you describe the principle of utmost good faith in insurance contracts?,"Hello! I'd be happy to help.
+
+According to the context, ""contracts of insurance are referred to as contracts of utmost good faith."" Since these contracts are based on prediction of an event (known as a contingency), they are called contingent contracts. The prediction depends on complete disclosure being made of all facts that would impact the risk.",12,57,251,0.004969626,0.234693878,0.7468915,0.107878504,0.294117647
+13-11-2024 20:51,Can you describe the principle of utmost good faith in insurance contracts?,"Good day! According to the context, the principle of utmost good faith operates in insurance contracts. This means that both parties to the contract have a legal obligation to disclose all material information. In other words, complete disclosure is necessary for these contracts based on predictions or contingencies.",12,48,311,0.000392296,0.104712042,0.74786097,0.078175265,0.227848101
+13-11-2024 20:52,How does travel insurance protect policyholders?,"Hello! Travel insurance protects policyholders from domestic and international travel related perils and losses like accidents, unexpected medical expenditure during travel, baggage loss, interruption or delays in flights etc.",6,29,353,1.68E-05,0.116991643,0.7414933,0.059020292,0.184100418
+13-11-2024 20:52,What is the role of IRDAI in the Indian insurance sector?,"Hello!
+
+To protect the interests of holders of insurance policies; to regulate, promote and ensure orderly growth of the insurance business and reinsurance business.",11,24,406,6.54E-05,0.16,0.5700463,0.070251568,0.195402299
+13-11-2024 20:53,What is a unit-linked insurance plan?,"Hello!
+
+I don't know the answer. The provided context does not mention ""unit-linked insurance plan.""",6,15,21,0.000278843,0.083333333,0.52677464,0.028248588,0.086956522
+13-11-2024 20:54,what are Unit Linked Insurance Plans,"Hello! Thank you for reaching out to me. According to the provided context, I don't see any specific information about ""Unit Linked Insurance Plans"". Could you please clarify or provide more details?",6,32,59,0.001243959,0.072727273,0.5495147,0.024539877,0.04494382
+13-11-2024 20:54,what are the basic types of life insurance policies,"Hello! According to the context, the basic types of life insurance policies are:
+
+1. Term insurance
+2. Whole life insurance
+3. Unit Linked Insurance Plans
+
+Let me know if you have any further questions or concerns!",9,36,104,4.39E-05,0.091891892,0.7364781,0.042409076,0.126126126
+13-11-2024 20:55,tell me about unit linked insurance plans,"Hello! 
+
+I'm happy to help with that question. Based on the provided context, I don't have specific information about Unit Linked Insurance Plans (ULIPs). My knowledge is limited to this introduction to insurance material, and I don't find any mentions of ULIPs here. Therefore, my answer is: ""I don't know the answer.""",7,52,163,0.005512555,0.138613861,0.3682297,0.131291028,0.128205128
+13-11-2024 20:58,what are basic types of life insurance,"Hello! According to the context, the basic types of life insurance policies mentioned are:
+
+* Term insurance
+
+Let me know if you have any other questions!",7,26,33,1.41E-06,0.06162465,0.703334,0.026486145,0.093023256
+13-11-2024 21:00,tell me Basic types of life insurance policies,"Hello!
+
+According to the context, the basic types of life insurance policies are:
+
+* Term insurance
+
+I don't know any other types.",8,22,63,7.30E-07,0.068535826,0.6313741,0.027470113,0.098039216
+13-11-2024 21:53,What is a unit-linked insurance plan?,"Hello!
+
+I don't know the answer.",6,6,19,2.96E-07,0.023255814,0.09550605,0.007153076,0.033333333
+13-11-2024 21:53,What is the IRDAI's function in regulating insurance companies?,"Hello! According to the provided context, IRDAI regulates insurance business and reinsurance business. It issues certificates of registration to insurance companies and licenses to intermediaries engaged in insurance-related activities. Additionally, it makes regulations for institutions/ entities operating in the insurance industry and supervises compliance with these regulations through returns and inspection.",9,51,79,0.014229913,0.287769784,0.80344677,0.119969432,0.32
+13-11-2024 21:53,Can you describe the principle of utmost good faith in insurance contracts?,"Hello! According to our provided context, Insurance Contracts are referred to as contracts of utmost good faith. This is because both parties have a legal obligation to disclose all material information that would impact the risk.",12,36,159,0.000101962,0.108108108,0.75575334,0.062672584,0.22907489
+13-11-2024 21:53,What is the IRDAI's function in regulating insurance companies?,"Good morning! According to the context, the IRDAI regulates the insurance business and re-insurance business. It also makes regulations for institutions/ entities operating in the insurance industry and supervises compliance with these regulations through returns and inspection.",9,37,205,0.002665639,0.204545455,0.80066323,0.087463999,0.256097561
+13-11-2024 21:54,How does health insurance work in India?,"Hello!
+
+Health insurance in India covers expenses towards treatment of diseases and/or injury. It's either on an indemnity basis where the insurer reimburses expenses up to a specified limit or on a fixed benefit basis where the insurer pays a fixed amount of benefit regardless of the expenses.
+
+Best, ADA (Assistant)",7,51,270,0.002291524,0.203125,0.7202059,0.09434594,0.224
+13-11-2024 21:54,How does travel insurance protect policyholders?,"Hello!
+
+Travel insurance protects policyholders from domestic and international travel related perils and losses like accidents, unexpected medical expenditure during travel, baggage loss, interruption or delays in flights, etc.",6,29,305,1.41E-05,0.116991643,0.7417029,0.057119766,0.175732218
+13-11-2024 21:54,What is subrogation in insurance terms?,"Hello! 
+
+In insurance parlance, 'subrogation' refers to the taking-over of the insured's right by the insurer who paid for the loss and compensated the insured. On payment of the claim, the insured's right to claim from anywhere else gets subrogated to the insurer.",6,43,361,0.007287426,0.23890785,0.7151048,0.10762831,0.28742515
+13-11-2024 21:54,What is a unit-linked insurance plan?,"Hello! I don't know the answer. The provided context doesn't mention ""unit-linked insurance plan"".",6,14,381,0.00020883,0.083333333,0.5204713,0.028288543,0.088235294
+13-11-2024 21:54,What is the role of IRDAI in the Indian insurance sector?,"Good day! According to the context, the role of IRDAI (Insurance Regulatory and Development Authority of India) is primarily to:
+
+* Protect the interests of holders of insurance policies;
+* Regulate, promote, and ensure orderly growth of the insurance business and reinsurance business.
+
+Additionally, IRDAI issues certificates of registration to insurance companies and licenses to all intermediaries.",11,57,449,0.015198904,0.274509804,0.87798387,0.116858115,0.246153846
+13-11-2024 21:55,What is subrogation in insurance terms?,"Hello!
+
+According to the context, ""On payment of the claim, the insured’s right to claim from anywhere else gets ‘subrogated’ to the insurer. In other words, taking over of the insured's right by the insurer is called ‘subrogation’ in insurance parlance.""
+
+So, subrogation in insurance terms refers to the insurer taking over the insured's right to claim from anywhere else after payment of the claim.",6,65,569,0.037541071,0.241269841,0.71163905,0.144618423,0.287356322
+13-11-2024 21:55,What is subrogation in insurance terms?,"Hello! According to the context, subrogation refers to the taking over of the insured's right by the insurer who paid for the loss and compensated the insured. It means that on payment of the claim, the insured's right to claim from anywhere else gets 'subrogated' to the insurer.",6,48,623,0.012034978,0.242424242,0.67165875,0.114608523,0.282352941
+13-11-2024 21:55,Can you describe the principle of utmost good faith in insurance contracts?,"Hello!
+
+The principle of utmost good faith in insurance contracts is that both parties to the contract have a legal obligation to disclose all material information. This means that the proposer (the person purchasing the insurance) has a duty to disclose everything and the insurer also has a duty to disclose everything that would impact the risk.",12,57,692,0.001601999,0.132992327,0.6770755,0.088843949,0.239316239
+13-11-2024 21:55,What is a unit-linked insurance plan?,Hello! I don't know the answer. The context provided only discusses the basics of insurance and does not mention unit-linked insurance plans. Would you like to learn more about the types of insurance?,6,33,766,0.002579079,0.157894737,0.56334484,0.068870523,0.120481928
+13-11-2024 21:56,What is the IRDAI's function in regulating insurance companies?,"Good day! According to the context, the IRDAI's function in regulating insurance companies is to regulate, promote, and ensure orderly growth of the insurance business and reinsurance business.",9,28,819,0.000309884,0.133333333,0.80522716,0.055656357,0.165605096
+13-11-2024 21:56,What is a unit-linked insurance plan?,I don't know the answer.,6,5,830,2.99E-08,0.023529412,0.08509445,0.007163324,0.033898305
+13-11-2024 21:56,How does health insurance work in India?,"Hello! 
+
+Health insurance in India works on an indemnity basis, which involves reimbursement of expenses up to a specified limit. It also covers expenses reasonably and chose to bring out a basic book on insurance education.",7,36,880,0.000164416,0.158038147,0.7193217,0.071437563,0.205761317
+13-11-2024 21:56,What is the IRDAI's function in regulating insurance companies?,I don't know the answer.,9,5,901,4.18E-21,0.017241379,0.056414213,0.004926108,0.014388489
+13-11-2024 21:56,What is a unit-linked insurance plan?,"Hello!
+
+I don't know the answer. The provided context does not mention unit-linked insurance plans. If you'd like to learn more about insurance, I'd be happy to help you with that!",6,31,945,0.001934498,0.087719298,0.5244212,0.041436464,0.095238095
+13-11-2024 21:56,What is a unit-linked insurance plan?,"Hello! I'm ADA, your assistant in the insurance sector. Unfortunately, since the provided context does not mention ""unit-linked insurance plan"", I don't know the answer.",6,25,1011,0.001481255,0.093457944,0.4635229,0.06679552,0.078947368
+13-11-2024 21:56,What is a unit-linked insurance plan?,"Hello! I'm ADA, your assistant in the insurance sector. According to our context, since there's no mention of ""unit-linked insurance plan"", my answer would be:
+
+I don't know the answer.
+
+However, if you'd like to discuss other types of insurance plans or have any questions about insurance in general, I'm here to help!",6,53,1077,0.003905112,0.130434783,0.45635676,0.080428954,0.102040816
+13-11-2024 21:56,What is a unit-linked insurance plan?,I don't know the answer.,6,5,1095,2.99E-08,0.023529412,0.08509445,0.007163324,0.033898305
+13-11-2024 21:57,How does travel insurance protect policyholders?,"Good day! Travel insurance protects policyholders from domestic and international travel-related perils and losses, such as accidents, unexpected medical expenditure during travel, baggage loss, interruption or delays in flights, etc.",6,30,1131,1.41E-05,0.11634349,0.7230984,0.050202429,0.141666667
+13-11-2024 21:57,Can you describe the principle of utmost good faith in insurance contracts?,"Hello! I'd be happy to help.
+
+According to our context, the principle of utmost good faith in insurance contracts is that disclosure of all material information has to be made by both parties to the contract. Since these contracts are based on prediction of an event (known as a contingency), they are called contingent contracts. The prediction depends on complete disclosure being made of all facts that would impact the risk.
+
+Let me know if you have any further questions!",12,80,1237,0.021422037,0.240963855,0.7437482,0.14668751,0.375
+13-11-2024 21:57,Can you describe the principle of utmost good faith in insurance contracts?,Good morning! The principle of utmost good faith in insurance contracts refers to the legal obligation for both parties to disclose all material information. This means that the proposer (the person seeking insurance) has a duty to reveal everything and the insurer has a responsibility to accurately assess the risk based on this information.,12,54,1345,0.000327081,0.118556701,0.77879846,0.077329157,0.218487395
+13-11-2024 21:57,Can you describe the principle of utmost good faith in insurance contracts?,"Good morning! According to our context, Utmost good faith operates in Insurance Contracts. This means that disclosure of all material information has to be made by both parties to the contract. In other words, there is a legal obligation for both the proposer and the insurer to disclose everything that would impact the risk being insured.",12,56,1420,0.002674256,0.148717949,0.7202799,0.089716115,0.265560166
+13-11-2024 21:57,How does travel insurance protect policyholders?,"Hello! 
+
+Travel insurance protects policyholders from domestic and international travel-related perils and losses, such as accidents, unexpected medical expenditure during travel, baggage loss, interruption or delays in flights, etc.",6,29,1478,1.00E-05,0.116666667,0.74171907,0.048347907,0.142259414
+13-11-2024 21:58,What is a unit-linked insurance plan?,Good day! I don't know the answer. The provided context only discusses the basics of insurance and doesn't mention unit-linked insurance plans.,6,22,1512,0.00111608,0.115384615,0.49504462,0.048951049,0.108108108
+13-11-2024 21:58,How does travel insurance protect policyholders?,"Hello! Travel insurance protects policyholders from domestic and international travel-related perils and losses, such as accidents, unexpected medical expenditure during travel, baggage loss, interruption or delays in flights, etc.",6,29,1594,1.00E-05,0.116666667,0.74171907,0.048347907,0.142259414
